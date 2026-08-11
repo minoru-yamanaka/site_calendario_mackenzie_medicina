@@ -299,6 +299,64 @@ body {
     align-items: center;
 }
 
+/* Autocomplete Suggestions */
+.autocomplete-suggestions {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    max-height: 280px;
+    overflow-y: auto;
+    z-index: 150;
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: var(--glass-blur);
+}
+
+.suggestion-group-title {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.6rem 0.8rem 0.3rem 0.8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.suggestion-item {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.825rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--theme-transition);
+}
+
+.suggestion-item:hover, .suggestion-item.focused {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+}
+
+.suggestion-item svg {
+    width: 14px;
+    height: 14px;
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.suggestion-item:hover svg, .suggestion-item.focused svg {
+    color: var(--primary-color);
+}
+
+.suggestion-highlight {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
 .search-wrapper input {
     width: 100%;
     background-color: var(--bg-app);

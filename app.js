@@ -63,6 +63,7 @@ const elements = {
     classSelector: document.getElementById("class-selector"),
     searchInput: document.getElementById("search-input"),
     clearSearchBtn: document.getElementById("clear-search-btn"),
+    searchSuggestions: document.getElementById("search-suggestions"),
     showStudentsEvents: document.getElementById("show-students-events"),
     showTeachersEvents: document.getElementById("show-teachers-events"),
     showHolidays: document.getElementById("show-holidays"),
@@ -155,12 +156,38 @@ function setupEventListeners() {
     elements.prevMonthBtn.addEventListener("click", () => navegarMes(-1));
     elements.nextMonthBtn.addEventListener("click", () => navegarMes(1));
 
-    // Busca Interativa de Aulas
+    // Busca Interativa de Aulas com Autocomplete
     elements.searchInput.addEventListener("input", (e) => {
         state.busca = e.target.value.toLowerCase().trim();
         elements.clearSearchBtn.style.display = state.busca ? "block" : "none";
         renderizarVisaoAtiva();
         atualizarEstatisticas();
+        atualizarSugestoes(e.target.value.trim());
+    });
+
+    elements.searchInput.addEventListener("focus", (e) => {
+        if (e.target.value.trim().length > 0) {
+            atualizarSugestoes(e.target.value.trim());
+        }
+    });
+
+    elements.searchInput.addEventListener("keydown", (e) => {
+        if (elements.searchSuggestions && elements.searchSuggestions.style.display === "block") {
+            if (e.key === "ArrowDown") {
+                e.preventDefault();
+                moverFocoTeclado(1);
+            } else if (e.key === "ArrowUp") {
+                e.preventDefault();
+                moverFocoTeclado(-1);
+            } else if (e.key === "Enter") {
+                if (sugestaoFocadaIndex >= 0 && sugestaoFocadaIndex < sugestoesAtuais.length) {
+                    e.preventDefault();
+                    selecionarSugestao(sugestoesAtuais[sugestaoFocadaIndex].valor);
+                }
+            } else if (e.key === "Escape") {
+                fecharSugestoes();
+            }
+        }
     });
 
     // Limpar Busca
@@ -168,8 +195,18 @@ function setupEventListeners() {
         elements.searchInput.value = "";
         state.busca = "";
         elements.clearSearchBtn.style.display = "none";
+        fecharSugestoes();
         renderizarVisaoAtiva();
         atualizarEstatisticas();
+    });
+
+    // Fechar sugestões ao clicar fora do campo de busca
+    document.addEventListener("click", (e) => {
+        if (elements.searchSuggestions && 
+            !elements.searchInput.contains(e.target) && 
+            !elements.searchSuggestions.contains(e.target)) {
+            fecharSugestoes();
+        }
     });
 
     // Filtros de Evento
@@ -1444,4 +1481,147 @@ function renderizarGraficos() {
             partnerCard.style.display = "none";
         }
     }
+}
+
+// ==========================================
+// 5. AUTOCOMPLETE DA BUSCA
+// ==========================================
+let sugestaoFocadaIndex = -1;
+let sugestoesAtuais = []; // Array de { tipo: 'professor'|'disciplina', valor: string }
+
+function fecharSugestoes() {
+    if (elements.searchSuggestions) {
+        elements.searchSuggestions.style.display = "none";
+        elements.searchSuggestions.innerHTML = "";
+    }
+    sugestaoFocadaIndex = -1;
+    sugestoesAtuais = [];
+}
+
+function destacarTermo(texto, termo) {
+    if (!termo) return texto;
+    const index = texto.toLowerCase().indexOf(termo.toLowerCase());
+    if (index === -1) return texto;
+    const substringOriginal = texto.substring(index, index + termo.length);
+    return texto.substring(0, index) + `<span class="suggestion-highlight">${substringOriginal}</span>` + texto.substring(index + termo.length);
+}
+
+function atualizarSugestoes(termo) {
+    if (!termo) {
+        fecharSugestoes();
+        return;
+    }
+
+    // 1. Coleta dados com base no semestre ativo
+    const aulasSemestre = appData.aulas.filter(a => state.turmaAtiva === "Todas" || a.turma === state.turmaAtiva);
+    
+    // Coleta professores únicos e válidos
+    const profsValidos = Array.from(new Set(
+        aulasSemestre
+            .map(a => a.professor)
+            .filter(p => p && p !== "Novo Professor")
+    )).map(p => p.split("-")[0].trim());
+    
+    // Coleta disciplinas únicas
+    const disciplinasValidas = Array.from(new Set(
+        aulasSemestre
+            .map(a => a.disciplina)
+            .filter(Boolean)
+    )).map(d => d.split("-")[0].trim());
+
+    // 2. Filtra pelas que coincidem com o termo
+    const termoMin = termo.toLowerCase();
+    const profsFiltrados = profsValidos
+        .filter(p => p.toLowerCase().includes(termoMin))
+        .sort()
+        .slice(0, 5);
+        
+    const discsFiltradas = disciplinasValidas
+        .filter(d => d.toLowerCase().includes(termoMin))
+        .sort()
+        .slice(0, 5);
+
+    if (profsFiltrados.length === 0 && discsFiltradas.length === 0) {
+        fecharSugestoes();
+        return;
+    }
+
+    // 3. Monta o array de sugestões estruturado
+    sugestoesAtuais = [];
+    profsFiltrados.forEach(p => sugestoesAtuais.push({ tipo: 'professor', valor: p }));
+    discsFiltradas.forEach(d => sugestoesAtuais.push({ tipo: 'disciplina', valor: d }));
+
+    sugestaoFocadaIndex = -1; // reseta o foco
+
+    // 4. Renderiza o HTML das sugestões por categoria
+    let html = "";
+    
+    if (profsFiltrados.length > 0) {
+        html += `<div class="suggestion-group-title">Professores</div>`;
+        profsFiltrados.forEach((prof, idx) => {
+            html += `
+                <div class="suggestion-item" data-index="${idx}" data-valor="${prof}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                    <span>${destacarTermo(prof, termo)}</span>
+                </div>
+            `;
+        });
+    }
+
+    if (discsFiltradas.length > 0) {
+        html += `<div class="suggestion-group-title">Disciplinas</div>`;
+        discsFiltradas.forEach((disc, idx) => {
+            const globalIdx = profsFiltrados.length + idx;
+            html += `
+                <div class="suggestion-item" data-index="${globalIdx}" data-valor="${disc}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <span>${destacarTermo(disc, termo)}</span>
+                </div>
+            `;
+        });
+    }
+
+    elements.searchSuggestions.innerHTML = html;
+    elements.searchSuggestions.style.display = "block";
+
+    // Adiciona click listeners
+    const items = elements.searchSuggestions.querySelectorAll(".suggestion-item");
+    items.forEach(item => {
+        item.addEventListener("click", () => {
+            const valor = item.getAttribute("data-valor");
+            selecionarSugestao(valor);
+        });
+    });
+}
+
+function selecionarSugestao(valor) {
+    elements.searchInput.value = valor;
+    state.busca = valor.toLowerCase().trim();
+    elements.clearSearchBtn.style.display = "block";
+    fecharSugestoes();
+    renderizarVisaoAtiva();
+    atualizarEstatisticas();
+}
+
+function moverFocoTeclado(direcao) {
+    const items = elements.searchSuggestions.querySelectorAll(".suggestion-item");
+    if (items.length === 0) return;
+
+    // Remove classe focada anterior
+    if (sugestaoFocadaIndex >= 0 && sugestaoFocadaIndex < items.length) {
+        items[sugestaoFocadaIndex].classList.remove("focused");
+    }
+
+    // Calcula novo índice
+    sugestaoFocadaIndex += direcao;
+    if (sugestaoFocadaIndex < 0) {
+        sugestaoFocadaIndex = items.length - 1;
+    } else if (sugestaoFocadaIndex >= items.length) {
+        sugestaoFocadaIndex = 0;
+    }
+
+    // Adiciona classe focada e faz scroll se necessário
+    const itemFocado = items[sugestaoFocadaIndex];
+    itemFocado.classList.add("focused");
+    itemFocado.scrollIntoView({ block: 'nearest' });
 }
