@@ -64,6 +64,7 @@ const elements = {
     searchInput: document.getElementById("search-input"),
     clearSearchBtn: document.getElementById("clear-search-btn"),
     searchSuggestions: document.getElementById("search-suggestions"),
+    exportSieaBtn: document.getElementById("export-siea-btn"),
     showStudentsEvents: document.getElementById("show-students-events"),
     showTeachersEvents: document.getElementById("show-teachers-events"),
     showHolidays: document.getElementById("show-holidays"),
@@ -271,6 +272,13 @@ function setupEventListeners() {
             unitHorasBtn.classList.add("active");
             unitAulasBtn.classList.remove("active");
             renderizarGraficos();
+        });
+    }
+
+    // Exportar Formulário SIEA
+    if (elements.exportSieaBtn) {
+        elements.exportSieaBtn.addEventListener("click", () => {
+            exportarFormularioSIEA();
         });
     }
 }
@@ -1656,4 +1664,172 @@ function moverFocoTeclado(direcao) {
     const itemFocado = items[sugestaoFocadaIndex];
     itemFocado.classList.add("focused");
     itemFocado.scrollIntoView({ block: 'nearest' });
+}
+
+// Gera e exporta a Solicitação de Inclusão de Aulas (SIEA) preenchida com as aulas ativas
+function exportarFormularioSIEA() {
+    const aulasExportar = appData.aulas.filter(aula => {
+        const matchTurma = state.turmaAtiva === "Todas" || aula.turma === state.turmaAtiva;
+        const matchBusca = !state.busca || 
+            aula.disciplina.toLowerCase().includes(state.busca) || 
+            aula.professor.toLowerCase().includes(state.busca);
+        
+        // Ignora a Área Verde na exportação
+        const isAreaVerde = aula.disciplina === "AREA VERDE" || aula.professor === "ÁREA VERDE";
+        return matchTurma && matchBusca && !isAreaVerde;
+    });
+
+    if (aulasExportar.length === 0) {
+        alert("Nenhuma aula encontrada para exportar com os filtros atuais.");
+        return;
+    }
+
+    // Estrutura o HTML com os cabeçalhos de Word
+    let htmlContent = `
+    <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+    <head>
+        <meta charset="utf-8">
+        <title>SIEA - Solicitação de Inclusão de Aulas</title>
+        <style>
+            body { font-family: 'Arial', sans-serif; font-size: 10pt; }
+            h2 { text-align: center; font-size: 14pt; margin-bottom: 5px; font-weight: bold; }
+            .header-info { margin-bottom: 20px; border-collapse: collapse; width: 100%; }
+            .header-info td { padding: 4px; border: 1px solid #000000; font-size: 9pt; }
+            .siea-table { border-collapse: collapse; width: 100%; }
+            .siea-table th { background-color: #f2f2f2; border: 1px solid #000000; padding: 6px; font-size: 8.5pt; font-weight: bold; text-align: center; }
+            .siea-table td { border: 1px solid #000000; padding: 5px; font-size: 8pt; vertical-align: middle; }
+            .center { text-align: center; }
+            .checkbox { font-family: 'MS Gothic', 'Arial'; font-size: 11pt; }
+        </style>
+    </head>
+    <body>
+        <h2>SIEA - SOLICITAÇÃO DE INCLUSÃO / EXCLUSÃO DE AULAS</h2>
+        <p style="text-align: center; font-size: 9pt; font-style: italic; margin-top: 0; margin-bottom: 15px;">
+            Para ser preenchido exclusivamente pela Unidade solicitante
+        </p>
+        
+        <table class="header-info">
+            <tr>
+                <td width="15%"><b>UA:</b></td>
+                <td width="35%">CCBS (Medicina)</td>
+                <td width="20%"><b>DATA DE EMISSÃO:</b></td>
+                <td width="30%">${new Date().toLocaleDateString('pt-BR')}</td>
+            </tr>
+            <tr>
+                <td><b>Nº USO ÁREA:</b></td>
+                <td>Nº 02</td>
+                <td><b>RAMAL:</b></td>
+                <td>2652</td>
+            </tr>
+            <tr>
+                <td><b>SUPERIOR:</b></td>
+                <td>Dr. Sigisfredo Luís Brenelli</td>
+                <td><b>CARGO:</b></td>
+                <td>Coordenador do Curso de Medicina</td>
+            </tr>
+            <tr>
+                <td><b>FILIAL:</b></td>
+                <td>Higienópolis</td>
+                <td><b>NÍVEL ENSINO:</b></td>
+                <td>Graduação Presencial</td>
+            </tr>
+        </table>
+
+        <table class="siea-table">
+            <thead>
+                <tr>
+                    <th width="3%">Nº</th>
+                    <th width="10%">DRT / MATRÍCULA</th>
+                    <th width="20%">NOME DO DOCENTE</th>
+                    <th width="8%">REGIME</th>
+                    <th width="15%">AÇÃO</th>
+                    <th width="10%">CÓD. COMP.</th>
+                    <th width="8%">TURMA</th>
+                    <th width="12%">DIA DA SEMANA</th>
+                    <th width="10%">HORÁRIO</th>
+                    <th width="8%">VIGÊNCIA</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
+
+    aulasExportar.forEach((aula, index) => {
+        // Extrai DRT do professor
+        let drt = "";
+        const drtMatch = aula.professor.match(/DRT:\s*(\d+)/i);
+        if (drtMatch) {
+            drt = drtMatch[1];
+        }
+        
+        const nomeProf = aula.professor.split("-")[0].trim();
+        
+        // Extrai código da disciplina (ex: ENAT80105)
+        let codComp = "";
+        const codMatch = aula.disciplina.match(/-\s*([A-Z0-9]+)/i);
+        if (codMatch) {
+            codComp = codMatch[1];
+        } else {
+            codComp = aula.disciplina.split("-").pop().trim();
+        }
+
+        const turmaExibicao = obterNomeExibicaoTurma(aula.turma);
+        const horario = HORARIOS_PERIODOS[aula.periodo] || "07:30 - 08:20";
+
+        // Dias da semana checkboxes (Seg, Ter, Qua, Qui, Sex, Sab)
+        let segCheck = aula.dia_semana === 1 ? "&#9746;" : "&#9744;";
+        let terCheck = aula.dia_semana === 2 ? "&#9746;" : "&#9744;";
+        let quaCheck = aula.dia_semana === 3 ? "&#9746;" : "&#9744;";
+        let quiCheck = aula.dia_semana === 4 ? "&#9746;" : "&#9744;";
+        let sexCheck = aula.dia_semana === 5 ? "&#9746;" : "&#9744;";
+        let sabCheck = aula.dia_semana === 6 ? "&#9746;" : "&#9744;";
+
+        const diasHtml = `
+            <span class="checkbox">${segCheck}</span>S 
+            <span class="checkbox">${terCheck}</span>T 
+            <span class="checkbox">${quaCheck}</span>Q <br>
+            <span class="checkbox">${quiCheck}</span>Q 
+            <span class="checkbox">${sexCheck}</span>S 
+            <span class="checkbox">${sabCheck}</span>S
+        `;
+
+        htmlContent += `
+            <tr>
+                <td class="center">${index + 1}</td>
+                <td class="center">${drt}</td>
+                <td>${nomeProf}</td>
+                <td class="center">PPP</td>
+                <td><span class="checkbox">&#9746;</span> Incluir <br> <span class="checkbox">&#9744;</span> Excluir <br> <span class="checkbox">&#9744;</span> Subst.</td>
+                <td class="center">${codComp}</td>
+                <td class="center">${turmaExibicao}</td>
+                <td class="center" style="line-height: 1.4;">${diasHtml}</td>
+                <td class="center">${horario}</td>
+                <td class="center">10/08/2026</td>
+            </tr>
+        `;
+    });
+
+    htmlContent += `
+            </tbody>
+        </table>
+    </body>
+    </html>
+    `;
+
+    // Criar blob e disparar download como .doc para Microsoft Word
+    const blob = new Blob(['\ufeff' + htmlContent], {
+        type: 'application/msword;charset=utf-8'
+    });
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `MODELO_DE_ENVIO_FORMS_SIEA_${state.turmaAtiva === "Todas" ? "GERAL" : state.turmaAtiva.replace(" ", "_")}.doc`;
+    document.body.appendChild(a);
+    a.click();
+    
+    // Cleanup
+    setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }, 100);
 }
