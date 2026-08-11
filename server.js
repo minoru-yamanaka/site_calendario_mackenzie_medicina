@@ -18,6 +18,17 @@ const MIME_TYPES = {
 };
 
 const server = http.createServer((req, res) => {
+    // Cabeçalhos CORS para permitir chamadas de qualquer origem local (CORS local completo)
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+    if (req.method === 'OPTIONS') {
+        res.writeHead(204);
+        res.end();
+        return;
+    }
+
     // Tratar rota da API de exportação
     if (req.method === 'POST' && req.url === '/api/export-siea') {
         let body = '';

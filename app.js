@@ -1694,7 +1694,7 @@ function exportarFormularioSIEA() {
         Exportando...
     `;
 
-    fetch('/api/export-siea', {
+    fetch('http://localhost:8000/api/export-siea', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
