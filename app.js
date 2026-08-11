@@ -384,7 +384,10 @@ function atualizarEstatisticas() {
         const matchBusca = !state.busca || 
             aula.disciplina.toLowerCase().includes(state.busca) || 
             aula.professor.toLowerCase().includes(state.busca);
-        return matchTurma && matchBusca;
+        
+        // Ignora a Área Verde das estatísticas e da carga média
+        const isAreaVerde = aula.disciplina === "AREA VERDE" || aula.professor === "ÁREA VERDE";
+        return matchTurma && matchBusca && !isAreaVerde;
     });
 
     const disciplinasUnicas = new Set(aulasFiltradas.map(a => a.disciplina));
@@ -424,7 +427,12 @@ function atualizarEstatisticas() {
 
         // Se estiver selecionado um semestre específico, exibe a comparação com a média geral do Mackenzie
         if (state.turmaAtiva !== "Todas") {
-            const aulasGeralValidas = appData.aulas.filter(a => a.professor && a.professor !== "Novo Professor");
+            const aulasGeralValidas = appData.aulas.filter(a => 
+                a.professor && 
+                a.professor !== "Novo Professor" && 
+                a.professor !== "ÁREA VERDE" && 
+                a.disciplina !== "AREA VERDE"
+            );
             const profsGeralUnicos = new Set(aulasGeralValidas.map(a => a.professor.split("-")[0].trim()));
             let mediaAulasGeral = 0;
             let mediaHorasGeral = 0;
@@ -1045,7 +1053,10 @@ function renderizarGraficos() {
         const matchBusca = !state.busca || 
             aula.disciplina.toLowerCase().includes(state.busca) || 
             aula.professor.toLowerCase().includes(state.busca);
-        return matchTurma && matchBusca;
+        
+        // Ignora a Área Verde de todos os gráficos
+        const isAreaVerde = aula.disciplina === "AREA VERDE" || aula.professor === "ÁREA VERDE";
+        return matchTurma && matchBusca && !isAreaVerde;
     });
 
     // Atualizar título do gráfico de disciplinas com base no filtro de professor
@@ -1519,14 +1530,14 @@ function atualizarSugestoes(termo) {
     const profsValidos = Array.from(new Set(
         aulasSemestre
             .map(a => a.professor)
-            .filter(p => p && p !== "Novo Professor")
+            .filter(p => p && p !== "Novo Professor" && p !== "ÁREA VERDE")
     )).map(p => p.split("-")[0].trim());
     
     // Coleta disciplinas únicas
     const disciplinasValidas = Array.from(new Set(
         aulasSemestre
             .map(a => a.disciplina)
-            .filter(Boolean)
+            .filter(d => d && d !== "AREA VERDE")
     )).map(d => d.split("-")[0].trim());
 
     // 2. Filtra pelas que coincidem com o termo
