@@ -1,0 +1,2575 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Joao Luiz Tadei</Author>
+  <LastAuthor>JOAO LUIZ TADEI</LastAuthor>
+  <Created>2026-08-10T20:03:15Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11865</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="1 Sheet1">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="209" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SchoolDBN</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SchoolYear</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TermID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CourseCode</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SectionID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Course name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PeriodID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Cycle Day</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Capacity</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Remaining Capacity</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Gender</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Teacher Name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Room</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mapped Course</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mapped Section</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ErrDescription</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Bell Schedule Name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Bruna Ballarotti - DRT: 1002000059</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">INTRODUÇÃO À COSMOVISÃO REFORMADA - ENUN51119</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">INTRODUÇÃO À COSMOVISÃO REFORMADA - ENUN51119</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Daniel Justiniano Andrade - DRT: 1169357</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL- ENEX80040</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL- ENEX80040</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OPTATIVAS I - LIBRAS - ENOP80300</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OPTATIVAS I - LIBRAS - ENOP80300</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Novo Professor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE - ENEX80045</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE - ENEX80045</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL- ENEX80040</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL- ENEX80040</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE - ENEX80045</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE - ENEX80045</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Bruna Ballarotti - DRT: 1002000059</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">INTRODUÇÃO À COSMOVISÃO REFORMADA - ENUN51119</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">INTRODUÇÃO À COSMOVISÃO REFORMADA - ENUN51119</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Daniel Justiniano Andrade - DRT: 1169357</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II (PRÁTICO) - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II (PRÁTICO) - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sigisfredo Luís Brenelli - DRT: 9000000077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I- ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL (PRÁTICO) - ENEX80040</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL (PRÁTICO) - ENEX80040</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OPTATIVAS I - LIBRAS (PRÁTICO) - ENOP80300</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OPTATIVAS I - LIBRAS (PRÁTICO) - ENOP80300</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Novo Professor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE (PRÁTICO) - ENEX80045</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE (PRÁTICO) - ENEX80045</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL (PRÁTICO) - ENEX80040</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL (PRÁTICO) - ENEX80040</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE (PRÁTICO) - ENEX80045</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE (PRÁTICO) - ENEX80045</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Bruna Ballarotti - DRT: 1002000059</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II (PRÁTICO) - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II (PRÁTICO) - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sigisfredo Luís Brenelli - DRT: 9000000077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FARMACOLOGIA II - ENEX80041</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FARMACOLOGIA II - ENEX80041</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÉTICA MÉDICA - ENEX80043</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÉTICA MÉDICA - ENEX80043</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÉTICA MÉDICA - ENEX80043</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÉTICA MÉDICA - ENEX80043</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Andreia Tassiane Antonacci - DRT 2018588</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Bruna Ballarotti - DRT: 1002000059</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II (PRÁTICO) - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II (PRÁTICO) - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sigisfredo Luís Brenelli - DRT: 9000000077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FARMACOLOGIA II (PRÁTICO) - ENEX80041</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FARMACOLOGIA II (PRÁTICO) - ENEX80041</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÉTICA MÉDICA - ENEX80043</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÉTICA MÉDICA - ENEX80043</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÉTICA MÉDICA - ENEX80043</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÉTICA MÉDICA - ENEX80043</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Andreia Tassiane Antonacci - DRT 2018588</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II (PRÁTICO) - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO II (PRÁTICO) - ENEX80033</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sigisfredo Luís Brenelli - DRT: 9000000077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA I (PRÁTICO) - ENAT80105</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AV</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AREA VERDE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÁREA VERDE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Márcia Oliveira Mayo Soares - DRT: 1002000157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FARMACOLOGIA II (PRÁTICO) - ENEX80041</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FARMACOLOGIA II (PRÁTICO) - ENEX80041</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EXTENSÃO IV (PRÁTICO) - ENEX80044</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fabio Yuji Furukawa - DRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ana Carolina Almada Colucci Paternez - DRT: 1135077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lorena de Paula Pantaleon - DRT: 1002000058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lorena de Paula Pantaleon - DRT: 1002000058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sigisfredo Luís Brenelli - DRT: 9000000077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AV</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AREA VERDE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÁREA VERDE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Claudia Beatriz de Campos Lotti - DRT: 1002000153</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Roberto Lucio Ferreira - DRT: 2017473</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Novo Professor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Juliete Melo Diniz - DRT: 1002000192</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ana Carolina Almada Colucci Paternez - DRT: 1135077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lorena de Paula Pantaleon - DRT: 1002000058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lorena de Paula Pantaleon - DRT: 1002000058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sigisfredo Luís Brenelli - DRT: 9000000077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ivone da Silva Duarte - DRT: 1002000196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Guilherme de Sousa Barbosa - DRT: 1002000207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AV</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AREA VERDE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÁREA VERDE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Claudia Beatriz de Campos Lotti - DRT: 1002000153</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Roberto Lucio Ferreira - DRT: 2017473</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Novo Professor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Juliete Melo Diniz - DRT: 1002000192</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO DIGITAL - ENEX80027</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO DIGITAL - ENEX80027</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Carlos Augusto Gottsfritz Fernandes - DRT: 2018612</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRÁTICAS MÉDICAS - ENEX80029</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRÁTICAS MÉDICAS - ENEX80029</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Claudia Beatriz de Campos Lotti - DRT: 1002000153</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRÁTICAS MÉDICAS - ENEX80029</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRÁTICAS MÉDICAS - ENEX80029</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GENÉTICA MÉDICA E BIOLOGIA MOLECULAR - ENEX80028</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GENÉTICA MÉDICA E BIOLOGIA MOLECULAR - ENEX80028</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lorena de Paula Pantaleon - DRT: 1002000058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SH(-E</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lorena de Paula Pantaleon - DRT: 1002000058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GENÉTICA MÉDICA E BIOLOGIA MOLECULAR - ENEX80028</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GENÉTICA MÉDICA E BIOLOGIA MOLECULAR - ENEX80028</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SH(-E</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AV</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AREA VERDE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÁREA VERDE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Claudia Beatriz de Campos Lotti - DRT: 1002000153</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Juliete Melo Diniz - DRT: 1002000192</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO DIGITAL (PRÁTICO) - ENEX80027</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COMUNICAÇÃO DIGITAL (PRÁTICO) - ENEX80027</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00001</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Carlos Augusto Gottsfritz Fernandes - DRT: 2018612</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRÁTICAS MÉDICAS (PRÁTICO) - ENEX80029</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRÁTICAS MÉDICAS (PRÁTICO) - ENEX80029</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Claudia Beatriz de Campos Lotti - DRT: 1002000153</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRÁTICAS MÉDICAS (PRÁTICO) - ENEX80029</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PRÁTICAS MÉDICAS (PRÁTICO) - ENEX80029</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Karina Mello Dias - DRT: 1001000371</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GENÉTICA MÉDICA E BIOLOGIA MOLECULAR (PRÁTICO) - ENEX80028</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GENÉTICA MÉDICA E BIOLOGIA MOLECULAR (PRÁTICO) - ENEX80028</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lorena de Paula Pantaleon - DRT: 1002000058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SH(-E</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Lorena de Paula Pantaleon - DRT: 1002000058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GENÉTICA MÉDICA E BIOLOGIA MOLECULAR (PRÁTICO) - ENEX80028</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GENÉTICA MÉDICA E BIOLOGIA MOLECULAR (PRÁTICO) - ENEX80028</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SH(-E</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AV</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AREA VERDE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">01000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÁREA VERDE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Claudia Beatriz de Campos Lotti - DRT: 1002000153</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Rafaini Lloret - DRT:1002000049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I (PRÁTICO) - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I (PRÁTICO) - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I (PRÁTICO) - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I (PRÁTICO) - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Juliete Melo Diniz - DRT: 1002000192</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Marcela Gil Fraga - DRT: 1002000194</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00100</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">André D' Antonio Pires - DRT: 1002000195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Katia Piton Serra - DRT 1002000276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SEMIOLOGIA III (PRÁTICO) - ENAT80113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10000</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Mariana Passos de Souza - DRT: 1002000275</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AV</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 2M </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AREA VERDE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">11111</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ÁREA VERDE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I (PRÁTICO) - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I (PRÁTICO) - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Solange Aparecida Petilo Bricola - DRT: 1137966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">oi</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">2021-1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I (PRÁTICO) - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Turma 4M</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FISIOPATOLOGIA I (PRÁTICO) - ENAT80111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">00010</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s62"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rafael Canavel Pereira - DRT:1002000222</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

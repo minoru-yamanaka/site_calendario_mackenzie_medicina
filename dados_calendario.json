@@ -1,0 +1,2182 @@
+{
+  "eventos": [
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-07-28",
+      "data_fim": "2026-07-28",
+      "descricao": "Final das férias dos Professores",
+      "raw_data": "28/07 - Final das férias dos Professores"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-07-29",
+      "data_fim": "2026-08-07",
+      "descricao": "Oficinas e Capacitações Obrigatórias",
+      "raw_data": "29/07 a 07/08 - Oficinas e Capacitações Obrigatórias"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-08-10",
+      "data_fim": "2026-08-10",
+      "descricao": "Retorno das Aulas",
+      "raw_data": "10/08 - Retorno das Aulas"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-08-31",
+      "data_fim": "2026-09-04",
+      "descricao": "Envio das questões da PIPA 1 (T1 e T2)",
+      "raw_data": "31/08 a 04/09 - Envio das questões da PIPA 1 (T1 e T2)"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-09-02",
+      "data_fim": "2026-09-02",
+      "descricao": "Teste do progresso (Online)",
+      "raw_data": "02/09 -  Teste do progresso (Online)"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-09-07",
+      "data_fim": "2026-09-07",
+      "descricao": "Independência do Brasil",
+      "raw_data": "07/09 - Independência do Brasil"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-09-23",
+      "data_fim": "2026-09-23",
+      "descricao": "PIPA 1 T1",
+      "raw_data": "23/09 - PIPA 1 T1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-09-24",
+      "data_fim": "2026-09-24",
+      "descricao": "PIPA 1 T2",
+      "raw_data": "24/09 - PIPA 1 T2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-09-28",
+      "data_fim": "2026-09-28",
+      "descricao": "Fechamento de nota NI1",
+      "raw_data": "28/09 - Fechamento de nota NI1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-09-29",
+      "data_fim": "2026-09-29",
+      "descricao": "Conselho de classe NI1 T1",
+      "raw_data": "29/09 - Conselho de classe NI1 T1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-10-06",
+      "data_fim": "2026-10-06",
+      "descricao": "Conselho de classe NI1 T2",
+      "raw_data": "06/10 - Conselho de classe NI1 T2"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-10-12",
+      "data_fim": "2026-10-12",
+      "descricao": "Nossa Sra. Aparecida",
+      "raw_data": "12/10 - Nossa Sra. Aparecida"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-10-05",
+      "data_fim": "2026-10-05",
+      "descricao": "16/10 - PRA 1",
+      "raw_data": "05/10 - 16/10 - PRA 1"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-10-13",
+      "data_fim": "2026-10-13",
+      "descricao": "Antecipação Dia do Professor",
+      "raw_data": "13/10 - Antecipação Dia do Professor"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-10-26",
+      "data_fim": "2026-11-19",
+      "descricao": "CEAP",
+      "raw_data": "26/10 a 19/11 - CEAP"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-10-26",
+      "data_fim": "2026-10-30",
+      "descricao": "Envio das Questões da PIPA 2 (T1 e T2)",
+      "raw_data": "26 a 30/10 - Envio das Questões da PIPA 2 (T1 e T2)"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-11-04",
+      "data_fim": "2026-11-04",
+      "descricao": "OSCE T2",
+      "raw_data": "04/11 - OSCE T2"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-11-02",
+      "data_fim": "2026-11-02",
+      "descricao": "Finados",
+      "raw_data": "02/11 - Finados"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-11-11",
+      "data_fim": "2026-11-11",
+      "descricao": "OSCE T1",
+      "raw_data": "11/11 - OSCE T1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-11-18",
+      "data_fim": "2026-11-18",
+      "descricao": "PIPA 2 T1",
+      "raw_data": "18/11 - PIPA 2 T1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-11-19",
+      "data_fim": "2026-11-19",
+      "descricao": "PIPA 2 T2",
+      "raw_data": "19/11 - PIPA 2 T2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-11-16",
+      "data_fim": "2026-11-20",
+      "descricao": "Envio das Questões NI3",
+      "raw_data": "16 a 20/11 - Envio das Questões NI3"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-11-20",
+      "data_fim": "2026-11-20",
+      "descricao": "Consciência Negra",
+      "raw_data": "20/11 - Consciência Negra"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-11-24",
+      "data_fim": "2026-11-24",
+      "descricao": "Conselho de classe NI2 T1",
+      "raw_data": "24/11 - Conselho de classe NI2 T1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-12-01",
+      "data_fim": "2026-12-01",
+      "descricao": "Conselho de classe NI2 T2",
+      "raw_data": "01/12 - Conselho de classe NI2 T2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-12-04",
+      "data_fim": "2026-12-04",
+      "descricao": "AG",
+      "raw_data": "04/12 - AG"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-12-04",
+      "data_fim": "2026-12-04",
+      "descricao": "Fechamento de nota NI2 e NI3",
+      "raw_data": "04/12 - Fechamento de nota NI2 e NI3"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-12-07",
+      "data_fim": "2026-12-11",
+      "descricao": "PRA 2",
+      "raw_data": "07/12 a 11/12 - PRA 2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Professores",
+      "data_inicio": "2026-12-07",
+      "data_fim": "2026-12-18",
+      "descricao": "ESAFA",
+      "raw_data": "07/12 a 18/12 - ESAFA"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-07-29",
+      "data_fim": "2026-08-07",
+      "descricao": "Oficinas e Capacitações",
+      "raw_data": "29/07 a 07/08 - Oficinas e Capacitações"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-08-10",
+      "data_fim": "2026-08-10",
+      "descricao": "Retorno das Aulas",
+      "raw_data": "10/08 - Retorno das Aulas"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-09-02",
+      "data_fim": "2026-09-02",
+      "descricao": "Teste do progresso (Online)",
+      "raw_data": "02/09 -  Teste do progresso (Online)"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-09-23",
+      "data_fim": "2026-09-23",
+      "descricao": "PIPA 1 T1",
+      "raw_data": "23/09 - PIPA 1 T1"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-09-07",
+      "data_fim": "2026-09-07",
+      "descricao": "Independência do Brasil",
+      "raw_data": "07/09 - Independência do Brasil"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-09-24",
+      "data_fim": "2026-09-24",
+      "descricao": "PIPA 1 T2",
+      "raw_data": "24/09 - PIPA 1 T2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-09-28",
+      "data_fim": "2026-09-28",
+      "descricao": "Fechamento de nota NI1",
+      "raw_data": "28/09 - Fechamento de nota NI1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-09-29",
+      "data_fim": "2026-09-29",
+      "descricao": "Conselho de classe NI1 T1",
+      "raw_data": "29/09 - Conselho de classe NI1 T1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-10-06",
+      "data_fim": "2026-10-06",
+      "descricao": "Conselho de classe NI1 T2",
+      "raw_data": "06/10 - Conselho de classe NI1 T2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-10-05",
+      "data_fim": "2026-10-05",
+      "descricao": "16/10 - PRA 1",
+      "raw_data": "05/10 - 16/10 - PRA 1"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-10-12",
+      "data_fim": "2026-10-12",
+      "descricao": "Nossa Sra. Aparecida",
+      "raw_data": "12/10 - Nossa Sra. Aparecida"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-10-26",
+      "data_fim": "2026-11-19",
+      "descricao": "CEAP",
+      "raw_data": "26/10 a 19/11 - CEAP"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-10-13",
+      "data_fim": "2026-10-13",
+      "descricao": "Antecipação Dia do Professor",
+      "raw_data": "13/10 - Antecipação Dia do Professor"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-11-04",
+      "data_fim": "2026-11-04",
+      "descricao": "OSCE T2",
+      "raw_data": "04/11 - OSCE T2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-11-11",
+      "data_fim": "2026-11-11",
+      "descricao": "OSCE T1",
+      "raw_data": "11/11 - OSCE T1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-11-18",
+      "data_fim": "2026-11-18",
+      "descricao": "PIPA 2 T1",
+      "raw_data": "18/11 - PIPA 2 T1"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-11-02",
+      "data_fim": "2026-11-02",
+      "descricao": "Finados",
+      "raw_data": "02/11 - Finados"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-11-19",
+      "data_fim": "2026-11-19",
+      "descricao": "PIPA 2 T2",
+      "raw_data": "19/11 - PIPA 2 T2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-11-24",
+      "data_fim": "2026-11-24",
+      "descricao": "Conselho de classe NI2 T1",
+      "raw_data": "24/11 - Conselho de classe NI2 T1"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-12-01",
+      "data_fim": "2026-12-01",
+      "descricao": "Conselho de classe NI2 T2",
+      "raw_data": "01/12 - Conselho de classe NI2 T2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-12-04",
+      "data_fim": "2026-12-04",
+      "descricao": "AG",
+      "raw_data": "04/12 - AG"
+    },
+    {
+      "tipo": "feriado",
+      "grupo": "Todos",
+      "data_inicio": "2026-11-20",
+      "data_fim": "2026-11-20",
+      "descricao": "Consciência Negra",
+      "raw_data": "20/11 - Consciência Negra"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-12-04",
+      "data_fim": "2026-12-04",
+      "descricao": "Fechamento de nota NI2 e NI3",
+      "raw_data": "04/12 - Fechamento de nota NI2 e NI3"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-12-07",
+      "data_fim": "2026-12-11",
+      "descricao": "PRA 2",
+      "raw_data": "07/12 a 11/12 - PRA 2"
+    },
+    {
+      "tipo": "evento",
+      "grupo": "Estudantes",
+      "data_inicio": "2026-12-07",
+      "data_fim": "2026-12-18",
+      "descricao": "ESAFA",
+      "raw_data": "07/12 a 18/12 - ESAFA"
+    }
+  ],
+  "aulas": [
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "1",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103",
+      "professor": "Bruna Ballarotti - DRT: 1002000059",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "1",
+      "disciplina": "INTRODUÇÃO À COSMOVISÃO REFORMADA - ENUN51119",
+      "professor": "Daniel Justiniano Andrade - DRT: 1169357",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "1",
+      "disciplina": "EXTENSÃO II - ENEX80033",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "1",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "1",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "1",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 2,
+      "periodo": "1",
+      "disciplina": "COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL- ENEX80040",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "1",
+      "disciplina": "EXTENSÃO IV - ENEX80044",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "1",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "1",
+      "disciplina": "OPTATIVAS I - LIBRAS - ENOP80300",
+      "professor": "Novo Professor",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "1",
+      "disciplina": "EXTENSÃO IV - ENEX80044",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "1",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE - ENEX80045",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "1",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 2,
+      "periodo": "1",
+      "disciplina": "COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL- ENEX80040",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "1",
+      "disciplina": "EXTENSÃO IV - ENEX80044",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "1",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE - ENEX80045",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "2",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Bruna Ballarotti - DRT: 1002000059",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "2",
+      "disciplina": "INTRODUÇÃO À COSMOVISÃO REFORMADA - ENUN51119",
+      "professor": "Daniel Justiniano Andrade - DRT: 1169357",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "2",
+      "disciplina": "EXTENSÃO II (PRÁTICO) - ENEX80033",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "SEMIOLOGIA I- ENAT80105",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "SEMIOLOGIA I- ENAT80105",
+      "professor": "Sigisfredo Luís Brenelli - DRT: 9000000077",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "SEMIOLOGIA I- ENAT80105",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "SEMIOLOGIA I- ENAT80105",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "2",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "SEMIOLOGIA I- ENAT80105",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "SEMIOLOGIA I- ENAT80105",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "2",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "2",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 2,
+      "periodo": "2",
+      "disciplina": "COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL (PRÁTICO) - ENEX80040",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "2",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "2",
+      "disciplina": "OPTATIVAS I - LIBRAS (PRÁTICO) - ENOP80300",
+      "professor": "Novo Professor",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "2",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE (PRÁTICO) - ENEX80045",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "2",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 2,
+      "periodo": "2",
+      "disciplina": "COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL (PRÁTICO) - ENEX80040",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "2",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "2",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE (PRÁTICO) - ENEX80045",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "3",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Bruna Ballarotti - DRT: 1002000059",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "3",
+      "disciplina": "EXTENSÃO II (PRÁTICO) - ENEX80033",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO I - ENAT80106",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Sigisfredo Luís Brenelli - DRT: 9000000077",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO I - ENAT80106",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "3",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO I - ENAT80106",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO I - ENAT80106",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "3",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "3",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO III - ENAT80114",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO III - ENAT80114",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 2,
+      "periodo": "3",
+      "disciplina": "FARMACOLOGIA II - ENEX80041",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO III - ENAT80114",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "3",
+      "disciplina": "SAÚDE FAMILIAR E MEDICINA INCLUSIVA I - ENEX80046",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO III - ENAT80114",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "3",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "3",
+      "disciplina": "RACIOCÍNIO CLÍNICO III - ENAT80114",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "3",
+      "disciplina": "ÉTICA MÉDICA - ENEX80043",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "3",
+      "disciplina": "SAÚDE FAMILIAR E MEDICINA INCLUSIVA I - ENEX80046",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "3",
+      "disciplina": "ÉTICA MÉDICA - ENEX80043",
+      "professor": "Andreia Tassiane Antonacci - DRT 2018588",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "4",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Bruna Ballarotti - DRT: 1002000059",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "4",
+      "disciplina": "EXTENSÃO II (PRÁTICO) - ENEX80033",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Sigisfredo Luís Brenelli - DRT: 9000000077",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "4",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "4",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "4",
+      "disciplina": "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 2,
+      "periodo": "4",
+      "disciplina": "FARMACOLOGIA II (PRÁTICO) - ENEX80041",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "4",
+      "disciplina": "SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "4",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "4",
+      "disciplina": "ÉTICA MÉDICA - ENEX80043",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "4",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "4",
+      "disciplina": "SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "4",
+      "disciplina": "ÉTICA MÉDICA - ENEX80043",
+      "professor": "Andreia Tassiane Antonacci - DRT 2018588",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "5",
+      "disciplina": "EXTENSÃO II (PRÁTICO) - ENEX80033",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Sigisfredo Luís Brenelli - DRT: 9000000077",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": null,
+      "periodo": "5",
+      "disciplina": "AREA VERDE",
+      "professor": "ÁREA VERDE",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 2,
+      "periodo": "5",
+      "disciplina": "FARMACOLOGIA II (PRÁTICO) - ENEX80041",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "5",
+      "disciplina": "SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "5",
+      "disciplina": "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+      "professor": "Fabio Yuji Furukawa - DRT",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "5",
+      "disciplina": "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "5",
+      "disciplina": "SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "6",
+      "disciplina": "EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104",
+      "professor": "Ana Carolina Almada Colucci Paternez - DRT: 1135077",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "6",
+      "disciplina": "SISTEMA HEMATOPOIÉTICO - ENEX80031",
+      "professor": "Lorena de Paula Pantaleon - DRT: 1002000058",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "6",
+      "disciplina": "SISTEMA TEGUMENTAR - ENEX80032",
+      "professor": "Lorena de Paula Pantaleon - DRT: 1002000058",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "6",
+      "disciplina": "SISTEMA GENITURINÁRIO - ENEX80030",
+      "professor": "Sigisfredo Luís Brenelli - DRT: 9000000077",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "6",
+      "disciplina": "SISTEMA GENITURINÁRIO - ENEX80030",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "6",
+      "disciplina": "SISTEMA HEMATOPOIÉTICO - ENEX80031",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "6",
+      "disciplina": "SISTEMA TEGUMENTAR - ENEX80032",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "6",
+      "disciplina": "SISTEMA TEGUMENTAR - ENEX80032",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "6",
+      "disciplina": "EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "6",
+      "disciplina": "AREA VERDE",
+      "professor": "ÁREA VERDE",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "6",
+      "disciplina": "SISTEMA GENITURINÁRIO - ENEX80030",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "6",
+      "disciplina": "SEMIOLOGIA III - ENAT80113",
+      "professor": "Claudia Beatriz de Campos Lotti - DRT: 1002000153",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "6",
+      "disciplina": "PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "6",
+      "disciplina": "SEMIOLOGIA III - ENAT80113",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "6",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "6",
+      "disciplina": "PATOLOGIA ESPECIAL - ENAT80112",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "6",
+      "disciplina": "SEMIOLOGIA III - ENAT80113",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "6",
+      "disciplina": "PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120",
+      "professor": "Roberto Lucio Ferreira - DRT: 2017473",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "6",
+      "disciplina": "PATOLOGIA ESPECIAL - ENAT80112",
+      "professor": "Novo Professor",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "6",
+      "disciplina": "PATOLOGIA ESPECIAL - ENAT80112",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "6",
+      "disciplina": "SEMIOLOGIA III - ENAT80113",
+      "professor": "Juliete Melo Diniz - DRT: 1002000192",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "6",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "6",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "6",
+      "disciplina": "SEMIOLOGIA III - ENAT80113",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "6",
+      "disciplina": "SEMIOLOGIA III - ENAT80113",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "7",
+      "disciplina": "EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104",
+      "professor": "Ana Carolina Almada Colucci Paternez - DRT: 1135077",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "7",
+      "disciplina": "SISTEMA HEMATOPOIÉTICO - ENEX80031",
+      "professor": "Lorena de Paula Pantaleon - DRT: 1002000058",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "7",
+      "disciplina": "SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032",
+      "professor": "Lorena de Paula Pantaleon - DRT: 1002000058",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "7",
+      "disciplina": "SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030",
+      "professor": "Sigisfredo Luís Brenelli - DRT: 9000000077",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "7",
+      "disciplina": "SISTEMA HEMATOPOIÉTICO - ENEX80031",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "7",
+      "disciplina": "SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "7",
+      "disciplina": "SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "7",
+      "disciplina": "SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032",
+      "professor": "Ivone da Silva Duarte - DRT: 1002000196",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "7",
+      "disciplina": "EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104",
+      "professor": "Guilherme de Sousa Barbosa - DRT: 1002000207",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "7",
+      "disciplina": "AREA VERDE",
+      "professor": "ÁREA VERDE",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "7",
+      "disciplina": "SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "7",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Claudia Beatriz de Campos Lotti - DRT: 1002000153",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "7",
+      "disciplina": "PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "7",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "7",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "7",
+      "disciplina": "PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "7",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 5,
+      "periodo": "7",
+      "disciplina": "PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120",
+      "professor": "Roberto Lucio Ferreira - DRT: 2017473",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "7",
+      "disciplina": "PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112",
+      "professor": "Novo Professor",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "7",
+      "disciplina": "PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "7",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Juliete Melo Diniz - DRT: 1002000192",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "7",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "7",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "7",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "7",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "8",
+      "disciplina": "COMUNICAÇÃO DIGITAL - ENEX80027",
+      "professor": "Carlos Augusto Gottsfritz Fernandes - DRT: 2018612",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "8",
+      "disciplina": "PRÁTICAS MÉDICAS - ENEX80029",
+      "professor": "Claudia Beatriz de Campos Lotti - DRT: 1002000153",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "8",
+      "disciplina": "PRÁTICAS MÉDICAS - ENEX80029",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "8",
+      "disciplina": "GENÉTICA MÉDICA E BIOLOGIA MOLECULAR - ENEX80028",
+      "professor": "Lorena de Paula Pantaleon - DRT: 1002000058",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "8",
+      "disciplina": "SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031",
+      "professor": "Lorena de Paula Pantaleon - DRT: 1002000058",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "8",
+      "disciplina": "GENÉTICA MÉDICA E BIOLOGIA MOLECULAR - ENEX80028",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "8",
+      "disciplina": "SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "8",
+      "disciplina": "AREA VERDE",
+      "professor": "ÁREA VERDE",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "8",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Claudia Beatriz de Campos Lotti - DRT: 1002000153",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "8",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "8",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "8",
+      "disciplina": "FISIOPATOLOGIA I - ENAT80111",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "8",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "8",
+      "disciplina": "FISIOPATOLOGIA I - ENAT80111",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "8",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Juliete Melo Diniz - DRT: 1002000192",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "8",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "8",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "8",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "8",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 5,
+      "periodo": "9",
+      "disciplina": "COMUNICAÇÃO DIGITAL (PRÁTICO) - ENEX80027",
+      "professor": "Carlos Augusto Gottsfritz Fernandes - DRT: 2018612",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "9",
+      "disciplina": "PRÁTICAS MÉDICAS (PRÁTICO) - ENEX80029",
+      "professor": "Claudia Beatriz de Campos Lotti - DRT: 1002000153",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 4,
+      "periodo": "9",
+      "disciplina": "PRÁTICAS MÉDICAS (PRÁTICO) - ENEX80029",
+      "professor": "Karina Mello Dias - DRT: 1001000371",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "9",
+      "disciplina": "GENÉTICA MÉDICA E BIOLOGIA MOLECULAR (PRÁTICO) - ENEX80028",
+      "professor": "Lorena de Paula Pantaleon - DRT: 1002000058",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "9",
+      "disciplina": "SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031",
+      "professor": "Lorena de Paula Pantaleon - DRT: 1002000058",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 3,
+      "periodo": "9",
+      "disciplina": "GENÉTICA MÉDICA E BIOLOGIA MOLECULAR (PRÁTICO) - ENEX80028",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 1,
+      "periodo": "9",
+      "disciplina": "SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": 2,
+      "periodo": "9",
+      "disciplina": "AREA VERDE",
+      "professor": "ÁREA VERDE",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "9",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Claudia Beatriz de Campos Lotti - DRT: 1002000153",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "9",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "9",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042",
+      "professor": "Rafael Rafaini Lloret - DRT:1002000049",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "9",
+      "disciplina": "FISIOPATOLOGIA I (PRÁTICO) - ENAT80111",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "9",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "9",
+      "disciplina": "FISIOPATOLOGIA I (PRÁTICO) - ENAT80111",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "9",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Juliete Melo Diniz - DRT: 1002000192",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "9",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042",
+      "professor": "Marcela Gil Fraga - DRT: 1002000194",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 3,
+      "periodo": "9",
+      "disciplina": "SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042",
+      "professor": "André D' Antonio Pires - DRT: 1002000195",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "9",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Katia Piton Serra - DRT 1002000276",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 1,
+      "periodo": "9",
+      "disciplina": "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+      "professor": "Mariana Passos de Souza - DRT: 1002000275",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 2M",
+      "dia_semana": null,
+      "periodo": "10",
+      "disciplina": "AREA VERDE",
+      "professor": "ÁREA VERDE",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "10",
+      "disciplina": "FISIOPATOLOGIA I (PRÁTICO) - ENAT80111",
+      "professor": "Solange Aparecida Petilo Bricola - DRT: 1137966",
+      "sala": ""
+    },
+    {
+      "turma": "Turma 4M",
+      "dia_semana": 4,
+      "periodo": "10",
+      "disciplina": "FISIOPATOLOGIA I (PRÁTICO) - ENAT80111",
+      "professor": "Rafael Canavel Pereira - DRT:1002000222",
+      "sala": ""
+    }
+  ],
+  "turmas": [
+    "Turma 2M",
+    "Turma 4M"
+  ],
+  "professores": [
+    "Ana Carolina Almada Colucci Paternez - DRT: 1135077",
+    "Andreia Tassiane Antonacci - DRT 2018588",
+    "André D' Antonio Pires - DRT: 1002000195",
+    "Bruna Ballarotti - DRT: 1002000059",
+    "Carlos Augusto Gottsfritz Fernandes - DRT: 2018612",
+    "Claudia Beatriz de Campos Lotti - DRT: 1002000153",
+    "Daniel Justiniano Andrade - DRT: 1169357",
+    "Fabio Yuji Furukawa - DRT",
+    "Guilherme de Sousa Barbosa - DRT: 1002000207",
+    "Ivone da Silva Duarte - DRT: 1002000196",
+    "Juliete Melo Diniz - DRT: 1002000192",
+    "Karina Mello Dias - DRT: 1001000371",
+    "Katia Piton Serra - DRT 1002000276",
+    "Lorena de Paula Pantaleon - DRT: 1002000058",
+    "Marcela Gil Fraga - DRT: 1002000194",
+    "Mariana Passos de Souza - DRT: 1002000275",
+    "Márcia Oliveira Mayo Soares - DRT: 1002000157",
+    "Novo Professor",
+    "Rafael Canavel Pereira - DRT:1002000222",
+    "Rafael Rafaini Lloret - DRT:1002000049",
+    "Roberto Lucio Ferreira - DRT: 2017473",
+    "Sigisfredo Luís Brenelli - DRT: 9000000077",
+    "Solange Aparecida Petilo Bricola - DRT: 1137966",
+    "Viviane Aparecida Sotto Bazalia Capeli - DRT: 1002000057",
+    "ÁREA VERDE"
+  ],
+  "disciplinas": [
+    "AREA VERDE",
+    "ATENÇÃO PRIMÁRIA À SAÚDE II (PRÁTICO) - ENAT80103",
+    "ATENÇÃO PRIMÁRIA À SAÚDE II - ENAT80103",
+    "ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE (PRÁTICO) - ENEX80045",
+    "ATENÇÃO PRIMÁRIA À SAÚDE IV - SAÚDE DA CRIANÇA E DO ADOLESCENTE - ENEX80045",
+    "COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL (PRÁTICO) - ENEX80040",
+    "COMUNICAÇÃO CLÍNICA: SENSIBILIDADE CULTURAL- ENEX80040",
+    "COMUNICAÇÃO DIGITAL (PRÁTICO) - ENEX80027",
+    "COMUNICAÇÃO DIGITAL - ENEX80027",
+    "EPIDEMIOLOGIA E ESTATÍSTICA II - ENAT80104",
+    "EXTENSÃO II (PRÁTICO) - ENEX80033",
+    "EXTENSÃO II - ENEX80033",
+    "EXTENSÃO IV (PRÁTICO) - ENEX80044",
+    "EXTENSÃO IV - ENEX80044",
+    "FARMACOLOGIA II (PRÁTICO) - ENEX80041",
+    "FARMACOLOGIA II - ENEX80041",
+    "FISIOPATOLOGIA I (PRÁTICO) - ENAT80111",
+    "FISIOPATOLOGIA I - ENAT80111",
+    "GENÉTICA MÉDICA E BIOLOGIA MOLECULAR (PRÁTICO) - ENEX80028",
+    "GENÉTICA MÉDICA E BIOLOGIA MOLECULAR - ENEX80028",
+    "INTRODUÇÃO À COSMOVISÃO REFORMADA - ENUN51119",
+    "OPTATIVAS I - LIBRAS (PRÁTICO) - ENOP80300",
+    "OPTATIVAS I - LIBRAS - ENOP80300",
+    "PATOLOGIA ESPECIAL (PRÁTICO) - ENAT80112",
+    "PATOLOGIA ESPECIAL - ENAT80112",
+    "PRINCÍPIOS DO EMPREENDEDORISMO - ENUN51120",
+    "PRÁTICAS MÉDICAS (PRÁTICO) - ENEX80029",
+    "PRÁTICAS MÉDICAS - ENEX80029",
+    "RACIOCÍNIO CLÍNICO I (PRÁTICO) - ENAT80106",
+    "RACIOCÍNIO CLÍNICO I - ENAT80106",
+    "RACIOCÍNIO CLÍNICO III (PRÁTICO) - ENAT80114",
+    "RACIOCÍNIO CLÍNICO III - ENAT80114",
+    "SAÚDE FAMILIAR E MEDICINA INCLUSIVA I (PRÁTICO) - ENEX80046",
+    "SAÚDE FAMILIAR E MEDICINA INCLUSIVA I - ENEX80046",
+    "SEMIOLOGIA I (PRÁTICO) - ENAT80105",
+    "SEMIOLOGIA I- ENAT80105",
+    "SEMIOLOGIA III (PRÁTICO) - ENAT80113",
+    "SEMIOLOGIA III - ENAT80113",
+    "SISTEMA CARDIORESPIRATÓRIO (PRÁTICO) - ENEX80042",
+    "SISTEMA CARDIORESPIRATÓRIO - ENEX80042",
+    "SISTEMA GENITURINÁRIO (PRÁTICO) - ENEX80030",
+    "SISTEMA GENITURINÁRIO - ENEX80030",
+    "SISTEMA HEMATOPOIÉTICO (PRÁTICO) - ENEX80031",
+    "SISTEMA HEMATOPOIÉTICO - ENEX80031",
+    "SISTEMA TEGUMENTAR (PRÁTICO) - ENEX80032",
+    "SISTEMA TEGUMENTAR - ENEX80032",
+    "ÉTICA MÉDICA - ENEX80043"
+  ]
+}

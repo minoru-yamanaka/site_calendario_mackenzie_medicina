@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard interativo para consulta de escalas semanais e calendário letivo do curso de Medicina da Universidade Presbiteriana Mackenzie.">
+    <title>Mackenzie Medicina | Calendário e Escalas 2026-2</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-logo">
+                <div class="logo-icon">M</div>
+                <div class="logo-text">
+                    <h1>Mackenzie <span>Medicina</span></h1>
+                    <p>Dashboard de Escalas & Calendário Letivo</p>
+                </div>
+            </div>
+            
+            <div class="header-actions">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle-btn" class="icon-btn" aria-label="Alternar Tema">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6.8 6.8 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </button>
+                
+                <!-- Semestre Badge -->
+                <span class="semester-badge">2026.2</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <!-- Sidebar / Control Panel -->
+            <section class="control-panel" aria-label="Painel de Controle">
+                <!-- Filtros Principais -->
+                <div class="control-card">
+                    <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="card-icon"><path d="M22 3H2l8 9v6l4 2v-8L22 3z"/></svg> Filtros de Escala</h2>
+                    
+                    <!-- Turmas -->
+                    <div class="filter-group">
+                        <label for="class-select">Selecione a Turma</label>
+                        <div class="class-selector-buttons" id="class-selector">
+                            <!-- Botões de turma inseridos via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Busca -->
+                    <div class="filter-group">
+                        <label for="search-input">Buscar por Professor ou Disciplina</label>
+                        <div class="search-wrapper">
+                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <input type="text" id="search-input" placeholder="Ex: Bruna Ballarotti, Semiologia..." autocomplete="off">
+                            <button id="clear-search-btn" class="clear-btn" aria-label="Limpar busca" style="display: none;">&times;</button>
+                        </div>
+                    </div>
+
+                    <!-- Tipo de Evento (para calendário e agenda) -->
+                    <div class="filter-group">
+                        <label>Exibir no Calendário</label>
+                        <div class="checkbox-group">
+                            <label class="custom-checkbox">
+                                <input type="checkbox" id="show-students-events" checked>
+                                <span class="checkmark"></span>
+                                Calendário de Estudantes
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" id="show-teachers-events" checked>
+                                <span class="checkmark"></span>
+                                Calendário de Professores
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" id="show-holidays" checked>
+                                <span class="checkmark"></span>
+                                Feriados e Recessos
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estatísticas / Info Rápida -->
+                <div class="control-card info-card">
+                    <h3>Resumo da Turma</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-label">Disciplinas</span>
+                            <span class="stat-value" id="stats-courses">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Professores</span>
+                            <span class="stat-value" id="stats-teachers">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Aulas / Semana</span>
+                            <span class="stat-value" id="stats-classes">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Parceiros / Divide aula -->
+                <div class="control-card info-card" id="partners-card" style="display: none;">
+                    <h3>Dividem Aulas com <span id="partner-prof-name">...</span></h3>
+                    <div class="partners-list" id="partners-list-container">
+                        <!-- Parceiros gerados dinamicamente via JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Display Area -->
+            <section class="display-area" aria-label="Visualização do Calendário">
+                <!-- Navigation Tabs -->
+                <nav class="view-tabs" aria-label="Navegação de Visualizações">
+                    <button class="tab-btn active" id="tab-monthly" data-view="monthly">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                        Calendário Mensal
+                    </button>
+                    <button class="tab-btn" id="tab-weekly" data-view="weekly">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2" /><path d="M3 9h18M9 21V9M15 21V9"/></svg>
+                        Grade Semanal
+                    </button>
+                    <button class="tab-btn" id="tab-agenda" data-view="agenda">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+                        Cronograma Acadêmico
+                    </button>
+                    <button class="tab-btn" id="tab-charts" data-view="charts">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                        Métricas & Gráficos
+                    </button>
+                </nav>
+
+                <!-- Dynamic Container -->
+                <div class="content-container">
+                    
+                    <!-- 1. Monthly View -->
+                    <div id="view-monthly" class="view-content active">
+                        <div class="calendar-header">
+                            <button id="prev-month-btn" class="nav-arrow-btn" aria-label="Mês anterior">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+                            </button>
+                            <h2 id="current-month-year">Agosto 2026</h2>
+                            <button id="next-month-btn" class="nav-arrow-btn" aria-label="Próximo mês">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+                            </button>
+                        </div>
+                        
+                        <!-- Month Grid -->
+                        <div class="calendar-grid">
+                            <div class="weekday-header">Dom</div>
+                            <div class="weekday-header">Seg</div>
+                            <div class="weekday-header">Ter</div>
+                            <div class="weekday-header">Qua</div>
+                            <div class="weekday-header">Qui</div>
+                            <div class="weekday-header">Sex</div>
+                            <div class="weekday-header">Sáb</div>
+                            <div id="calendar-days-container" class="days-grid">
+                                <!-- Dias gerados via JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Weekly View -->
+                    <div id="view-weekly" class="view-content">
+                        <div class="weekly-grid-wrapper">
+                            <table class="weekly-table" id="weekly-table-el">
+                                <thead>
+                                    <tr>
+                                        <th>Período</th>
+                                        <th>Segunda</th>
+                                        <th>Terça</th>
+                                        <th>Quarta</th>
+                                        <th>Quinta</th>
+                                        <th>Sexta</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="weekly-table-body">
+                                    <!-- Preenchido dinamicamente via JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 3. Agenda/Timeline View -->
+                    <div id="view-agenda" class="view-content">
+                        <div class="agenda-header-actions">
+                            <h3>Eventos Cronológicos</h3>
+                            <div class="agenda-search-filter">
+                                <input type="text" id="agenda-search" placeholder="Filtrar eventos...">
+                            </div>
+                        </div>
+                        <div class="agenda-timeline" id="agenda-timeline-container">
+                            <!-- Preenchido dinamicamente via JS -->
+                        </div>
+                    </div>
+
+                    <!-- 4. Metric/Charts View -->
+                    <div id="view-charts" class="view-content">
+                        <div class="charts-grid">
+                            <div class="chart-card">
+                                <h3>Distribuição de Professores por Dia da Semana</h3>
+                                <div class="chart-container" id="days-chart-container">
+                                    <canvas id="chart-days"></canvas>
+                                </div>
+                            </div>
+                            <div class="chart-card">
+                                <h3 id="disciplines-chart-title">Aulas Semanais por Disciplina</h3>
+                                <div class="chart-container" id="courses-chart-container">
+                                    <canvas id="chart-courses"></canvas>
+                                </div>
+                            </div>
+                            <div class="chart-card chart-full" id="partner-chart-card" style="display: none;">
+                                <h3>Colegas que dividem aulas com <span id="partner-chart-prof-name">...</span></h3>
+                                <div class="chart-container" id="partners-chart-container">
+                                    <canvas id="chart-partners"></canvas>
+                                </div>
+                            </div>
+
+                            <div class="chart-card chart-full">
+                                <div class="chart-card-header" style="flex-wrap: wrap; gap: 0.5rem;">
+                                    <h3 id="teachers-chart-title">Aulas Semanais por Professor</h3>
+                                    <div style="display: flex; gap: 0.25rem; align-items: center;">
+                                        <div class="unit-selector">
+                                            <button id="unit-aulas-btn" class="unit-btn active">Períodos</button>
+                                            <button id="unit-horas-btn" class="unit-btn">Horas (Relógio)</button>
+                                        </div>
+                                        <button id="toggle-teachers-limit-btn" class="chart-toggle-btn" style="margin-left: 0.5rem;">Ver Todos</button>
+                                    </div>
+                                </div>
+                                <div class="chart-container" id="teachers-chart-container">
+                                    <canvas id="chart-teachers"></canvas>
+                                </div>
+                                <div class="chart-legend-farol">
+                                    <span id="farol-leg-high"><span class="legend-dot status-high"></span> Alto (&ge; 12 aulas)</span>
+                                    <span id="farol-leg-medium"><span class="legend-dot status-medium"></span> Médio (6 a 11 aulas)</span>
+                                    <span id="farol-leg-low"><span class="legend-dot status-low"></span> Baixo (&le; 5 aulas)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Detail Modal / Sidebar (Slide In Panel) -->
+        <div id="detail-panel" class="detail-panel" aria-hidden="true">
+            <div class="detail-panel-backdrop" id="detail-panel-backdrop"></div>
+            <div class="detail-panel-content">
+                <header class="detail-panel-header">
+                    <h3 id="detail-date-title">10 de Agosto de 2026</h3>
+                    <button id="close-detail-btn" class="close-btn" aria-label="Fechar detalhes">&times;</button>
+                </header>
+                <div class="detail-panel-body" id="detail-panel-body-content">
+                    <!-- Detalhes do dia selecionado -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>&copy; 2026 Mackenzie Medicina. Todos os direitos reservados. Projetado para eficiência acadêmica.</p>
+        </footer>
+    </div>
+
+    <!-- JS Link -->
+    <script src="app.js"></script>
+</body>
+</html>
