@@ -71,6 +71,12 @@ const elements = {
     statsCourses: document.getElementById("stats-courses"),
     statsTeachers: document.getElementById("stats-teachers"),
     statsClasses: document.getElementById("stats-classes"),
+    statsAvgClasses: document.getElementById("stats-avg-classes"),
+    statsAvgHours: document.getElementById("stats-avg-hours"),
+    kpiAvgHours: document.getElementById("kpi-avg-hours"),
+    kpiAvgClasses: document.getElementById("kpi-avg-classes"),
+    kpiTotalTeachers: document.getElementById("kpi-total-teachers"),
+    kpiTotalClasses: document.getElementById("kpi-total-classes"),
     
     // Navigation Tabs
     tabMonthly: document.getElementById("tab-monthly"),
@@ -334,7 +340,7 @@ function renderizarVisaoAtiva() {
     }
 }
 
-// Atualiza o painel de estatísticas rápidas na lateral
+// Atualiza o painel de estatísticas rápidas na lateral e o painel de KPIs de métricas
 function atualizarEstatisticas() {
     const aulasFiltradas = appData.aulas.filter(aula => {
         const matchTurma = state.turmaAtiva === "Todas" || aula.turma === state.turmaAtiva;
@@ -345,11 +351,55 @@ function atualizarEstatisticas() {
     });
 
     const disciplinasUnicas = new Set(aulasFiltradas.map(a => a.disciplina));
-    const professoresUnicos = new Set(aulasFiltradas.map(a => a.professor).filter(Boolean));
+    
+    // Filtra apenas aulas com professor atribuído válido
+    const aulasComProfAtivo = aulasFiltradas.filter(a => a.professor && a.professor !== "Novo Professor");
+    const professoresUnicos = new Set(aulasComProfAtivo.map(a => a.professor.split("-")[0].trim()));
 
+    // Atualiza estatísticas rápidas do semestre/busca
     elements.statsCourses.textContent = disciplinasUnicas.size;
     elements.statsTeachers.textContent = professoresUnicos.size;
     elements.statsClasses.textContent = aulasFiltradas.length;
+
+    // Calcular Carga Média do Filtro Ativo
+    let mediaAulasAtiva = 0;
+    let mediaHorasAtiva = 0;
+    if (professoresUnicos.size > 0) {
+        mediaAulasAtiva = aulasComProfAtivo.length / professoresUnicos.size;
+        mediaHorasAtiva = mediaAulasAtiva * 50 / 60; // 50 min de período escolar
+    }
+
+    // Exibir carga média na barra lateral
+    if (elements.statsAvgClasses) {
+        elements.statsAvgClasses.textContent = mediaAulasAtiva.toFixed(1);
+    }
+    if (elements.statsAvgHours) {
+        elements.statsAvgHours.textContent = mediaHorasAtiva.toFixed(1) + "h";
+    }
+
+    // Atualizar painel de KPI na aba de gráficos
+    if (elements.kpiAvgHours && elements.kpiAvgClasses && elements.kpiTotalTeachers && elements.kpiTotalClasses) {
+        elements.kpiAvgHours.textContent = mediaHorasAtiva.toFixed(1) + " horas";
+        elements.kpiAvgClasses.textContent = `${mediaAulasAtiva.toFixed(1)} aulas / períodos semanais (50min)`;
+        
+        elements.kpiTotalTeachers.textContent = `${professoresUnicos.size} professor${professoresUnicos.size !== 1 ? 'es' : ''}`;
+        elements.kpiTotalClasses.textContent = `${aulasFiltradas.length} aula${aulasFiltradas.length !== 1 ? 's' : ''} no filtro ativo`;
+
+        // Se estiver selecionado um semestre específico, exibe a comparação com a média geral do Mackenzie
+        if (state.turmaAtiva !== "Todas") {
+            const aulasGeralValidas = appData.aulas.filter(a => a.professor && a.professor !== "Novo Professor");
+            const profsGeralUnicos = new Set(aulasGeralValidas.map(a => a.professor.split("-")[0].trim()));
+            let mediaAulasGeral = 0;
+            let mediaHorasGeral = 0;
+            if (profsGeralUnicos.size > 0) {
+                mediaAulasGeral = aulasGeralValidas.length / profsGeralUnicos.size;
+                mediaHorasGeral = mediaAulasGeral * 50 / 60;
+            }
+
+            elements.kpiAvgClasses.innerHTML = `${mediaAulasAtiva.toFixed(1)} aulas/semana <span style="color: var(--text-muted); font-size: 0.72rem; margin-left: 0.5rem;">(Média Geral: ${mediaAulasGeral.toFixed(1)})</span>`;
+            elements.kpiAvgHours.innerHTML = `${mediaHorasAtiva.toFixed(1)} horas <span style="color: var(--text-muted); font-size: 0.8rem; font-weight: normal; margin-left: 0.5rem;">(Média Geral: ${mediaHorasGeral.toFixed(1)}h)</span>`;
+        }
+    }
 
     atualizarParceirosProfessor();
 }

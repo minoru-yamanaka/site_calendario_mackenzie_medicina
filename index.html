@@ -106,6 +106,21 @@
                     </div>
                 </div>
 
+                <!-- Carga Média dos Professores -->
+                <div class="control-card info-card" id="avg-load-card">
+                    <h3>Carga Média por Professor</h3>
+                    <div class="stats-grid" style="grid-template-columns: repeat(2, 1fr);">
+                        <div class="stat-item">
+                            <span class="stat-label">Aulas (Média)</span>
+                            <span class="stat-value" id="stats-avg-classes">0.0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Horas (Média)</span>
+                            <span class="stat-value" id="stats-avg-hours">0.0h</span>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Parceiros / Divide aula -->
                 <div class="control-card info-card" id="partners-card" style="display: none;">
                     <h3>Dividem Aulas com <span id="partner-prof-name">...</span></h3>
@@ -204,6 +219,33 @@
                     <!-- 4. Metric/Charts View -->
                     <div id="view-charts" class="view-content">
                         <div class="charts-grid">
+                            <!-- Painel de KPIs de Alocação e Carga Docente -->
+                            <div class="chart-card chart-full" id="avg-kpi-card" style="padding: 1.5rem;">
+                                <h3>Resumo de Alocação e Carga Docente (Filtro Ativo)</h3>
+                                <div class="kpi-grid">
+                                    <div class="kpi-card-item">
+                                        <div class="kpi-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                        </div>
+                                        <div class="kpi-info">
+                                            <span class="kpi-label">Tempo Médio Semanal</span>
+                                            <span class="kpi-value" id="kpi-avg-hours">0.0 horas</span>
+                                            <span class="kpi-subtext" id="kpi-avg-classes">0.0 aulas / períodos (50min)</span>
+                                        </div>
+                                    </div>
+                                    <div class="kpi-card-item">
+                                        <div class="kpi-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                                        </div>
+                                        <div class="kpi-info">
+                                            <span class="kpi-label">Docentes em Atividade</span>
+                                            <span class="kpi-value" id="kpi-total-teachers">0 professores</span>
+                                            <span class="kpi-subtext" id="kpi-total-classes">0 aulas totais no filtro</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="chart-card">
                                 <h3>Distribuição de Professores por Dia da Semana</h3>
                                 <div class="chart-container" id="days-chart-container">
