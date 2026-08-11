@@ -414,12 +414,12 @@ function atualizarEstatisticas() {
         elements.statsAvgClasses.textContent = mediaAulasAtiva.toFixed(1);
     }
     if (elements.statsAvgHours) {
-        elements.statsAvgHours.textContent = mediaHorasAtiva.toFixed(1) + "h";
+        elements.statsAvgHours.textContent = formatarHorasMinutos(mediaHorasAtiva);
     }
 
     // Atualizar painel de KPI na aba de gráficos
     if (elements.kpiAvgHours && elements.kpiAvgClasses && elements.kpiTotalTeachers && elements.kpiTotalClasses) {
-        elements.kpiAvgHours.textContent = mediaHorasAtiva.toFixed(1) + " horas";
+        elements.kpiAvgHours.textContent = formatarHorasMinutos(mediaHorasAtiva);
         elements.kpiAvgClasses.textContent = `${mediaAulasAtiva.toFixed(1)} aulas / períodos semanais (50min)`;
         
         elements.kpiTotalTeachers.textContent = `${professoresUnicos.size} professor${professoresUnicos.size !== 1 ? 'es' : ''}`;
@@ -442,7 +442,7 @@ function atualizarEstatisticas() {
             }
 
             elements.kpiAvgClasses.innerHTML = `${mediaAulasAtiva.toFixed(1)} aulas/semana <span style="color: var(--text-muted); font-size: 0.72rem; margin-left: 0.5rem;">(Média Geral: ${mediaAulasGeral.toFixed(1)})</span>`;
-            elements.kpiAvgHours.innerHTML = `${mediaHorasAtiva.toFixed(1)} horas <span style="color: var(--text-muted); font-size: 0.8rem; font-weight: normal; margin-left: 0.5rem;">(Média Geral: ${mediaHorasGeral.toFixed(1)}h)</span>`;
+            elements.kpiAvgHours.innerHTML = `${formatarHorasMinutos(mediaHorasAtiva)} <span style="color: var(--text-muted); font-size: 0.8rem; font-weight: normal; margin-left: 0.5rem;">(Média Geral: ${formatarHorasMinutos(mediaHorasGeral)})</span>`;
         }
     }
 
@@ -545,6 +545,25 @@ function navegarMes(passo) {
     const mes = state.dataReferencia.getMonth();
     state.dataReferencia = new Date(ano, mes + passo, 1);
     renderizarCalendarioMensal();
+}
+
+// Converte horas decimais para string no formato horas:minutos (ex: 8.333h -> 8:20h)
+function formatarHorasMinutos(decimalHoras) {
+    if (isNaN(decimalHoras) || decimalHoras <= 0) return "0:00h";
+    const horas = Math.floor(decimalHoras);
+    const minutos = Math.round((decimalHoras - horas) * 60);
+    
+    let horasAjustadas = horas;
+    let minutosAjustados = minutos;
+    
+    // Se o arredondamento dos minutos der 60, avança a hora e zera os minutos
+    if (minutosAjustados === 60) {
+        horasAjustadas += 1;
+        minutosAjustados = 0;
+    }
+    
+    const minutosStr = String(minutosAjustados).padStart(2, '0');
+    return `${horasAjustadas}:${minutosStr}h`;
 }
 
 // Helper para converter data YYYY-MM-DD para Date em fuso local sem problemas de timezone UTC
@@ -1229,8 +1248,10 @@ function renderizarGraficos() {
                         callbacks: {
                             label: (context) => {
                                 const val = context.raw;
-                                const unidade = state.unidadeHoraria === "horas" ? " h" : " períodos/aulas";
-                                return `Carga horária: ${val}${unidade}`;
+                                if (state.unidadeHoraria === "horas") {
+                                    return `Carga horária: ${formatarHorasMinutos(val)}`;
+                                }
+                                return `Carga horária: ${val} períodos/aulas`;
                             }
                         }
                     }
