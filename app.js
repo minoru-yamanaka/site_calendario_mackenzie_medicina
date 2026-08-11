@@ -35,6 +35,13 @@ const MESES = [
     "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
 ];
 
+// Mapeamento de Nome de Turma para Semestre amigável
+function obterNomeExibicaoTurma(turma) {
+    if (turma === "Turma 2M" || turma === "2M") return "2° Semestre";
+    if (turma === "Turma 4M" || turma === "4M") return "4° Semestre";
+    return turma;
+}
+
 // Horários estimados dos períodos letivos
 const HORARIOS_PERIODOS = {
     "1": "07:30 - 08:20",
@@ -275,7 +282,7 @@ function criarBotoesTurma() {
     appData.turmas.forEach(turma => {
         const btn = document.createElement("button");
         btn.className = `class-btn ${turma === state.turmaAtiva ? "active" : ""}`;
-        btn.textContent = turma;
+        btn.textContent = obterNomeExibicaoTurma(turma);
         btn.addEventListener("click", () => {
             document.querySelectorAll(".class-btn").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
@@ -697,7 +704,7 @@ function renderizarGradeSemanal() {
                     card.style.borderLeftColor = `hsl(${hue}, 70%, 45%)`;
 
                     const classHeader = state.turmaAtiva === "Todas" 
-                        ? `<span class="class-room" style="background-color: var(--primary-light); color: var(--primary-color); font-size: 0.65rem; margin-bottom: 0.25rem;">${aula.turma}</span>`
+                        ? `<span class="class-room" style="background-color: var(--primary-light); color: var(--primary-color); font-size: 0.65rem; margin-bottom: 0.25rem;">${obterNomeExibicaoTurma(aula.turma)}</span>`
                         : "";
 
                     card.innerHTML = `
@@ -865,7 +872,7 @@ function abrirDetalhes(data, eventos, aulas) {
     // 2. Renderizar Seção de Grade de Aulas (Recorrentes) do dia
     const secAulas = document.createElement("div");
     secAulas.className = "detail-section";
-    const labelTurma = state.turmaAtiva === "Todas" ? "Todas as Turmas" : `Turma ${state.turmaAtiva}`;
+    const labelTurma = state.turmaAtiva === "Todas" ? "Todos os Semestres" : obterNomeExibicaoTurma(state.turmaAtiva);
     secAulas.innerHTML = `<h4>Aulas - ${labelTurma}</h4>`;
 
     const feriado = eventos.find(e => e.tipo === "feriado");
@@ -898,7 +905,7 @@ function abrirDetalhes(data, eventos, aulas) {
             const badgeTurmaHtml = state.turmaAtiva === "Todas"
                 ? `<span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="11" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                    Turma: ${aula.turma}
+                    Semestre: ${obterNomeExibicaoTurma(aula.turma)}
                    </span>`
                 : "";
 
